@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckPlanAnalytics", "TruckPlanAnalytics\TruckPlanAnalytics.csproj", "{24F47693-DDCB-43D4-A7FA-F31840D4E2A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckPlanAnalytics.Core", "TruckPlanAnalytics.Core\TruckPlanAnalytics.Core.csproj", "{C05B3BEE-81E4-488E-BF67-F3655C76059D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckPlanAnalytics.Data", "TruckPlanAnalytics.Data\TruckPlanAnalytics.Data.csproj", "{677D13FC-B57B-42A9-B115-97CABE919820}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckPlanAnalytics.Services", "TruckPlanAnalytics.Services\TruckPlanAnalytics.Services.csproj", "{F45E7F87-0276-4952-BE63-999541B016E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckPlanAnalytics.Tests", "TruckPlanAnalytics.Tests\TruckPlanAnalytics.Tests.csproj", "{253027B1-0A1C-4FD6-B7A8-2C2C77EA9E84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70A6B3D9-ECC7-4C95-90B4-C4A7952BFD62}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24F47693-DDCB-43D4-A7FA-F31840D4E2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F47693-DDCB-43D4-A7FA-F31840D4E2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F47693-DDCB-43D4-A7FA-F31840D4E2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F47693-DDCB-43D4-A7FA-F31840D4E2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05B3BEE-81E4-488E-BF67-F3655C76059D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05B3BEE-81E4-488E-BF67-F3655C76059D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05B3BEE-81E4-488E-BF67-F3655C76059D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05B3BEE-81E4-488E-BF67-F3655C76059D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677D13FC-B57B-42A9-B115-97CABE919820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677D13FC-B57B-42A9-B115-97CABE919820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677D13FC-B57B-42A9-B115-97CABE919820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677D13FC-B57B-42A9-B115-97CABE919820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45E7F87-0276-4952-BE63-999541B016E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45E7F87-0276-4952-BE63-999541B016E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45E7F87-0276-4952-BE63-999541B016E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45E7F87-0276-4952-BE63-999541B016E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253027B1-0A1C-4FD6-B7A8-2C2C77EA9E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253027B1-0A1C-4FD6-B7A8-2C2C77EA9E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253027B1-0A1C-4FD6-B7A8-2C2C77EA9E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253027B1-0A1C-4FD6-B7A8-2C2C77EA9E84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C29159F3-9858-4554-974D-2CE9A5FD4967}
+	EndGlobalSection
+EndGlobal
