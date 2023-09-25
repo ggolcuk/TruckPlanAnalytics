@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckPlanAnalytics.Data", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckPlanAnalytics.Services", "TruckPlanAnalytics.Services\TruckPlanAnalytics.Services.csproj", "{F45E7F87-0276-4952-BE63-999541B016E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckPlanAnalytics.Tests", "TruckPlanAnalytics.Tests\TruckPlanAnalytics.Tests.csproj", "{253027B1-0A1C-4FD6-B7A8-2C2C77EA9E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckPlanAnalytics.Tests", "TruckPlanAnalytics.Tests\TruckPlanAnalytics.Tests.csproj", "{253027B1-0A1C-4FD6-B7A8-2C2C77EA9E84}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70A6B3D9-ECC7-4C95-90B4-C4A7952BFD62}"
 	ProjectSection(SolutionItems) = preProject

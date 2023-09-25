@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using TruckPlanAnalytics.Core.Interfaces;
 using TruckPlanAnalytics.Core.Models;
@@ -15,12 +16,24 @@ namespace TruckPlanAnalytics.Services
 
         }
 
+        public double CalculateDistanceWithCoordinates(TruckPlan truckPlan)
+        {
+            double distance = 0;
+
+            for (int i = 0; i < truckPlan.GpsCoordinates.Count - 1; i++)
+            {
+                distance += CalculateDistanceBetweenCoordinates(truckPlan.GpsCoordinates[i], truckPlan.GpsCoordinates[i+1])
+            }
+
+            return distance;
+        }
+
         public Task<double> FetchRealDistanceBetweenCoordinatesAsync(GpsCoordinate start, GpsCoordinate end)
         {
             throw new System.NotImplementedException();
         }
 
-        public Task<double> FetchMostLikelyPathDistanceAsync(GpsCoordinate start, GpsCoordinate end)
+        public Task<double> FetchMostLikelyPathDistanceAsync(TruckPlan truckPlan)
         {
             throw new System.NotImplementedException();
         }

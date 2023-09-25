@@ -30,6 +30,6 @@ namespace TruckPlanAnalytics.Core.Interfaces
         /// <param name="start"></param>
         /// <param name="end"></param>
         /// <returns></returns>
-        Task<double> FetchMostLikelyPathDistanceAsync(GpsCoordinate start, GpsCoordinate end);
+        Task<double> FetchMostLikelyPathDistanceAsync(TruckPlan truckPlan);
     }
 }
